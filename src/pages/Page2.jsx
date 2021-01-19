@@ -1,5 +1,5 @@
 import React from 'react'
-import NavbarV2 from '../components/header/Navbar/NavbarV2/NavbarV2'
+import NavbarV2 from '../components/User/header/Navbar/NavbarV2/NavbarV2'
 
 
 export const Page2 = () => {
