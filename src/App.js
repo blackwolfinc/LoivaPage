@@ -3,12 +3,13 @@ import React from 'react';
 
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
 import { Page2 } from './pages/Page2';
-import {Page1} from './pages/Page1';
+import { Page1 } from './pages/Page1';
 import { Page3 } from './pages/Page3';
 
 
 function App() {
   return (
+    //route aplikasi 
     <div className="App">
       <BrowserRouter>
       <Switch>
