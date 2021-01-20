@@ -45,7 +45,7 @@ export class TopNavigation extends Component {
                  
                         <MDBNavItem>
                                 <NavLink  to="/admin" activeClassName="activeClass">
-                              <button className="btn btn-danger">Logout</button>
+                              <button className="btn btn-sm btn-danger">Logout</button>
                         </NavLink>
                         </MDBNavItem>
                     </MDBNavbarNav>

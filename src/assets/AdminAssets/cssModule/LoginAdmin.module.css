@@ -1,0 +1,46 @@
+.cardStyle {
+    /* background-color: lime; */
+    /* border: 5px solid lime; */
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.cardStyle img {
+background-repeat: no-repeat;
+background-size: cover;
+width: 40%;
+
+}
+.containerLogin {
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+    /* text-align: center;    */
+    /* align-items: center; */
+    
+}
+
+
+.inputWraper {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 1rem 4rem;
+    padding: 1rem 8rem;
+    text-align: center;
+}
+
+.inputfrom {
+    margin: 0.3rem 0px;
+   align-items: center;
+   display: flex;
+}
+.inputfrom input{
+    padding: 10px;
+    margin: 0.3rem;
+    width: 50%;
+}
+
+.inputfrom  i {
+    padding: 20px;
+}

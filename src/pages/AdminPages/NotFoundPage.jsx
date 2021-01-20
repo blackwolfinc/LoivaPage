@@ -1,7 +1,7 @@
 import React from 'react'
 import { MDBCol, MDBRow } from 'mdbreact';
 import logo from "../../assets/AdminAssets/img/mdb-react.png";
-import './Admin.css'
+import '../../assets/AdminAssets/css/Admin.css'
 
 
 export const NotFoundPage =  () => {

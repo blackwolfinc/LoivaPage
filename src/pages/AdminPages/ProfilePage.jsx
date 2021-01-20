@@ -4,7 +4,7 @@ import src1 from '../../assets/AdminAssets/img/admin.png';
 import { Footer } from '../../components/Admin/Footer';
 import { TopNavigation } from '../../components/Admin/TopNavigation';
 import { SideNavigation } from '../../components/Admin/SideNavigation';
-import './Admin.css'
+import '../../assets/AdminAssets/css/Admin.css'
 
 export const ProfilePage =  () => {
   return (

@@ -10,14 +10,6 @@ import { MDBRow } from 'mdbreact';
 import { Footer } from '../../components/Admin/Footer';
 import { TopNavigation } from '../../components/Admin/TopNavigation';
 import { SideNavigation } from '../../components/Admin/SideNavigation';
-// import AdminCardSection1 from '../../../components/Admin/AdminComponents/sections/AdminCardSection1';
-// import AdminCardSection2 from '../../../components/Admin/AdminComponents/sections/AdminCardSection2';
-// import TableSection from '../../../components/Admin/AdminComponents/sections/TableSection';
-
-// import ChartSection1 from '../../../components/Admin/AdminComponents/sections/ChartSection1';
-// import ChartSection2 from '../../../components/Admin/AdminComponents/sections/ChartSection2';
-// import MapSection from '../../../components/Admin/AdminComponents/sections/MapSection';
-// import ModalSection from '../../../components/Admin/AdminComponents/sections/ModalSection';
 
 export const DashboardPage =  () => {
   return (

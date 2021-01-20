@@ -4,7 +4,7 @@ import GoogleMapReact from "google-map-react";
 import { Footer } from '../../components/Admin/Footer';
 import { TopNavigation } from '../../components/Admin/TopNavigation';
 import { SideNavigation } from '../../components/Admin/SideNavigation';
-import './Admin.css'
+import '../../assets/AdminAssets/css/Admin.css'
 
 export const MapsPage = () => {
   return (

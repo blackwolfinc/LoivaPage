@@ -3,13 +3,13 @@ import { MDBRow, MDBCol, MDBView, MDBCard, MDBCardBody, MDBTable, MDBTableHead, 
 import { Footer } from '../../components/Admin/Footer';
 import { TopNavigation } from '../../components/Admin/TopNavigation';
 import { SideNavigation } from '../../components/Admin/SideNavigation';
-import './Admin.css'
+import '../../assets/AdminAssets/css/Admin.css'
 
 export const TablesPage =  () => {
   return (
     <>
-    <TopNavigation/>
       <div className="flexible-content">
+      <TopNavigation/>
       <SideNavigation/>
           <main id="content" className="p-5">
           <MDBRow>
