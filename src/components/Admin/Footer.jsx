@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBFooter, MDBBtn, MDBIcon } from 'mdbreact';
 
-const Footer = () => {
+export const Footer = () => {
     return (
         <MDBFooter color="blue" className="text-center font-small darken-2">
             <div className="pt-4">
@@ -26,4 +26,3 @@ const Footer = () => {
     );
 }
 
-export default Footer;

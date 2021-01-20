@@ -1,12 +1,13 @@
 import React from 'react'
 import { MDBCol, MDBRow } from 'mdbreact';
-import logo from "../../assets/mdb-react.png";
+import logo from "../../assets/AdminAssets/img/mdb-react.png";
+import './Admin.css'
 
 
-const NotFoundPage =  () => {
+export const NotFoundPage =  () => {
   return (
     <React.Fragment>
-      {/* <div className="full">
+      <div className="full">
         <MDBRow className="bad-gateway-row">
           <MDBCol md="8">
             <img alt="Error 404" className="img-fluid" hieght="20px" src={logo}/>
@@ -17,9 +18,8 @@ const NotFoundPage =  () => {
             <img alt="Error 404" className="img-fluid" src="https://mdbootstrap.com/img/Others/grafika404-bf.png"/>
           </MDBCol>
         </MDBRow>
-      </div> */}
+      </div>
     </React.Fragment>
   )
 }
 
-export default NotFoundPage;

@@ -1,10 +1,18 @@
 import React from 'react'
 import { MDBRow, MDBCol, MDBView, MDBCard, MDBCardBody, MDBTable, MDBTableHead, MDBTableBody } from 'mdbreact';
+import { Footer } from '../../components/Admin/Footer';
+import { TopNavigation } from '../../components/Admin/TopNavigation';
+import { SideNavigation } from '../../components/Admin/SideNavigation';
+import './Admin.css'
 
-const TablesPage =  () => {
+export const TablesPage =  () => {
   return (
     <>
-      {/* <MDBRow>
+    <TopNavigation/>
+      <div className="flexible-content">
+      <SideNavigation/>
+          <main id="content" className="p-5">
+          <MDBRow>
       <MDBCol md="12">
         <MDBCard className="mt-5">
           <MDBView className="gradient-card-header blue darken-2">
@@ -140,9 +148,13 @@ const TablesPage =  () => {
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-    </MDBRow> */}
+    </MDBRow>
+          </main>
+          <Footer/>
+        </div>
+      
     </>
   )
 }
 
-export default TablesPage;
+ 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBCard, MDBCardBody, MDBIcon, MDBRow, MDBCol, MDBCardText } from 'mdbreact';
 
-const AdminCardSection1 = () => {
+export const AdminCardSection1 = () => {
   return (
     <MDBRow className="mb-4">
         <MDBCol xl="3" md="6" className="mb-r">
@@ -88,5 +88,5 @@ const AdminCardSection1 = () => {
   )
 }
 
-export default AdminCardSection1;
+
 

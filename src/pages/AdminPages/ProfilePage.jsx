@@ -1,11 +1,19 @@
 import React from 'react'
 import { MDBCard, MDBCol, MDBRow, MDBView, MDBMask, MDBCardImage, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardFooter, MDBBtn, MDBIcon } from 'mdbreact';
-import src1 from '../../assets/img-1.jpg';
+import src1 from '../../assets/AdminAssets/img/admin.png';
+import { Footer } from '../../components/Admin/Footer';
+import { TopNavigation } from '../../components/Admin/TopNavigation';
+import { SideNavigation } from '../../components/Admin/SideNavigation';
+import './Admin.css'
 
-const ProfilePage =  () => {
+export const ProfilePage =  () => {
   return (
     <React.Fragment>
-        {/* <MDBRow className="justify-content-center">
+       <div className="flexible-content">
+         <TopNavigation/>
+      <SideNavigation/>
+          <main id="content" className="p-5">
+          <MDBRow className="justify-content-center">
         <MDBCol sm="12" md="6" lg="3" className="mb-5">
             <MDBCard>
                 <MDBCardImage className="img-fluid" src={src1} />
@@ -118,9 +126,12 @@ const ProfilePage =  () => {
           </MDBRow>
         </section>
       </MDBCol>
-    </MDBRow> */}
+    </MDBRow>
+          </main>
+          <Footer/>
+        </div>
+       
     </React.Fragment>
   );
 }
 
-export default ProfilePage;

@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBCol, MDBCard, MDBCardBody, MDBCardHeader} from 'mdbreact';
 import GoogleMapReact from 'google-map-react';
 
-const MapSection = () => {
+export const MapSection = () => {
   return (
       <MDBCol lg="6" className="mb-4">
         <MDBCard>
@@ -18,5 +18,5 @@ const MapSection = () => {
   )
 }
 
-export default MapSection;
+
 
