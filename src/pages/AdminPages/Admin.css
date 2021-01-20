@@ -8,7 +8,16 @@ body{
     text-align: left;
     background-color: #EDEDEE;
   }
-  
+  .list-group-item:hover {
+    border: 2px solid black !important;
+  }
+  .list-group-item {
+    border-bottom: 2px solid rgb(218, 218, 218) !important;
+  }
+  .none {
+    display: none;
+    width: 0px;
+  }
   a{
     color: inherit;
   }
@@ -96,6 +105,11 @@ body{
     height: 70vh;
   }
   
+  .btn-Khusus {
+
+    font-size: 12px;
+    margin-left: -8%;
+  }
   .bad-gateway-row {
     margin: 0;
     position: absolute;
@@ -180,10 +194,25 @@ body{
   
   @media (max-width: 1199.98px) {
     .sidebar-fixed {
+      width: 5rem;
+    }
+
+    .list-group-item{
+      padding: 1rem 3rem 1rem 2rem !important;
+     
+      margin-left: -2rem;
+    }
+    
+   .a-khusus{
+
+    margin: 0.2rem;
+   }
+    .btn-Khusus {
+
       display: none;
     }
     .flexible-content {
-      padding-left: 0;
+      padding-left: 4rem;
     }
     .flexible-navbar {
       padding-left: 10px;
@@ -205,6 +234,13 @@ body{
   @media (max-width: 576px) { 
     .card.cascading-admin-card {
       margin-top: 2.5rem;
+    }
+    .flexible-content {
+      padding-left: 0rem;
+    }
+    .sidebar-fixed {
+      display: none;
+      width: 0;
     }
   
     #breadcrumb{

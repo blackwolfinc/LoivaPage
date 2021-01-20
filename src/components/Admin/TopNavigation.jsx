@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, NavLink ,MDBListGroupItem, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon } from 'mdbreact';
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBBtn, NavLink ,MDBListGroupItem, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBIcon } from 'mdbreact';
 
 export class TopNavigation extends Component {
     state = {
         collapse: false
     }
+
+    sidenavToggle = sidenavId => () => {
+        const sidenavNr = `sideNav${sidenavId}`
+        this.setState({
+          [sidenavNr]: !this.state[sidenavNr]
+        });
+      };
 
     onClick = () => {
         this.setState({
@@ -35,6 +42,7 @@ export class TopNavigation extends Component {
                         </MDBNavItem>
                     </MDBNavbarNav>
                     <MDBNavbarNav right>
+                 
                         <MDBNavItem>
                                 <NavLink  to="/admin" activeClassName="activeClass">
                               <button className="btn btn-danger">Logout</button>
