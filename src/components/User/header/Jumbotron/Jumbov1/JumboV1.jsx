@@ -1,9 +1,10 @@
 import React from "react";
 import { MDBJumbotron, MDBBtn,MDBCarouselInner,MDBView, MDBContainer, MDBRow, MDBCol ,MDBCarouselItem ,MDBCarousel} from "mdbreact";
 import Style from "./JumboV1.module.css"
-const JumboV1 = () => {
+export const JumboV1 = () => {
   return (
     <MDBContainer className="mt-5 text-center">
+      <h1>Templete Craousel Jumbotron</h1>
       <MDBRow>
         <MDBCol>
           <MDBJumbotron>
@@ -62,4 +63,3 @@ const JumboV1 = () => {
   )
 }
 
-export default JumboV1;
