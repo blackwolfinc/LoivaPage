@@ -1,14 +1,15 @@
 import React from 'react'
 import { MDBContainer, MDBRow, MDBCol, MDBBtn } from 'mdbreact';
 
-export const Login = () => {
+export const LoginFrom = () => {
     return (
-        <MDBContainer>
-        <MDBRow>
+        <MDBContainer className="center pt-5 pb-5" >
+          <h1>Login Templete</h1>
+        <MDBRow display="flex" justifyContent="center">
           <MDBCol md="6">
             <form>
               <p className="h4 text-center mb-4">Sign in</p>
-              <label htmlFor="defaultFormLoginEmailEx" className="grey-text">
+              <label htmlFor="defaultFormLoginEmailEx" className="grey-text text-left" >
                 Your email
               </label>
               <input type="email" id="defaultFormLoginEmailEx" className="form-control" />
@@ -25,5 +26,5 @@ export const Login = () => {
         </MDBRow>
       </MDBContainer>
       );
-    
+
 }

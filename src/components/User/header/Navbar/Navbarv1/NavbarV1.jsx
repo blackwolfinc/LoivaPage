@@ -27,13 +27,13 @@ render() {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem active>
-              <MDBNavLink to="#!">Home</MDBNavLink>
+              <MDBNavLink to="/">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Features</MDBNavLink>
+              <MDBNavLink to="nav2">Login & Register</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Pricing</MDBNavLink>
+              <MDBNavLink to="/nav3">Others</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBDropdown>
@@ -55,7 +55,7 @@ render() {
                 <div className="md-form my-0">
                   <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
                 </div>
-                
+
               </MDBFormInline>
             </MDBNavItem>
           </MDBNavbarNav>
