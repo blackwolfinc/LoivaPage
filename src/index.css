@@ -1,13 +1,106 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+@font-face {
+  font-family: 'Maax-Medium';
+  src: url('./assets/Font/Maax/Maax-Medium.eot');
+  src: local('Maax Medium'), local('./assets/Font/Maax/Maax-Medium'),
+      url('./assets/Font/Maax/Maax-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./assets/Font/Maax/Maax-Medium.woff') format('woff'),
+      url('./assets/Font/Maax/Maax-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Maax-Italic';
+  src: url('./assets/Font/Maax/Maax-Italic.eot');
+  src: local('Maax Italic'), local('./assets/Font/Maax/Maax-Italic'),
+      url('./assets/Font/Maax/Maax-Italic.eot?#iefix') format('embedded-opentype'),
+      url('./assets/Font/Maax/Maax-Italic.woff') format('woff'),
+      url('./assets/Font/Maax/Maax-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Maax-BoldItalic';
+  src: url('./assets/Font/Maax/Maax-BoldItalic.eot');
+  src: local('Maax BoldItalic'), local('./assets/Font/Maax/Maax-BoldItalic'),
+      url('./assets/Font/Maax/Maax-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('./assets/Font/Maax/Maax-BoldItalic.woff') format('woff'),
+      url('./assets/Font/Maax/Maax-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Maax-Black';
+  src: url('./assets/Font/Maax/Maax-Black.eot');
+  src: local('Maax Black'), local('./assets/Font/Maax/Maax-Black'),
+      url('./assets/Font/Maax/Maax-Black.eot?#iefix') format('embedded-opentype'),
+      url('./assets/Font/Maax/Maax-Black.woff') format('woff'),
+      url('./assets/Font/Maax/Maax-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maax';
+  src: url('./assets/Font/Maax/Maax.eot');
+  src: local('Maax'),
+      url('./assets/Font/Maax/Maax.eot?#iefix') format('embedded-opentype'),
+      url('./assets/Font/Maax/Maax.woff') format('woff'),
+      url('./assets/Font/Maax/Maax.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maax-Bold';
+  src: url('./assets/Font/Maax/Maax-Bold.eot');
+  src: local('./assets/Font/Maax/Maax Bold'), local('./assets/Font/Maax/Maax-Bold'),
+      url('./assets/Font/Maax/Maax-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./assets/Font/Maax/Maax-Bold.woff') format('woff'),
+      url('./assets/Font/Maax/Maax-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maax-Mediumitalic';
+  src: url('./assets/Font/Maax/Maax-Mediumitalic.eot');
+  src: local('Maax MediumItalic'), local('./assets/Font/Maax/Maax-Mediumitalic'),
+      url('./assets/Font/Maax/Maax-Mediumitalic.eot?#iefix') format('embedded-opentype'),
+      url('./assets/Font/Maax/Maax-Mediumitalic.woff') format('woff'),
+      url('./assets/Font/Maax/Maax-Mediumitalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+body {
+  margin: 0;
+  font-family:'Maax-Medium','Maax' !important;
+  
+}
+
+
+html, body {
+
+  margin: 0; height: 100%; overflow: hidden}
+
+  .navbar-toggler {
+   
+    /* background-color: teal; */
+   background-color: rgba(233, 233, 233, 0.459) !important;
+    border-radius: 0px;
+    padding: 0.5rem  1rem!important;
+    border-radius: 5px  !important;
+    content: "\f039";
+
+    
+  
+}
+.navbar-toggler ::after{
+  border: 3px solid gray;
 }

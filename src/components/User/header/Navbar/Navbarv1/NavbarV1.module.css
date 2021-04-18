@@ -1,8 +1,32 @@
 .gambarEquity {
-    width: 8rem;
-    height: 100%;
+  width: 13rem;
+  height: 100%;
+  margin: 0rem 0rem 0rem 4rem;
 }
+
 .NavbarCon {
-    background: rgb(10,187,154);
-background: linear-gradient(6deg, rgba(10,187,154,0.8589636538209033) 0%, rgba(42,143,87,0.8421569311318278) 10%, rgba(19,121,29,1) 55%); 
+  background: transparent !important;
+  color: black !important;
+}
+.navbarCollapse3 {
+  color: black;
+}
+
+.Button {
+  padding: 0.4rem 2em;
+  border-radius: 20px;
+  border: 2px solid rgb(35, 168, 35);
+  background-color: #fff;
+  margin: 0rem 1rem;
+}
+.Button2 {
+  padding: 0.5rem 2em;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  background-color: rgb(35, 168, 35);
+  margin: 0rem 1rem;
+
+  font-family: 'Maax-Bold', 'Maax';
+  font-weight: 700;
 }

@@ -3,9 +3,12 @@ import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
 MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
-import { BrowserRouter as Router } from 'react-router-dom';
-import LogoEquity from "../../../../../assets/images/logos/logo-equity-life.jpeg"
+import LogoEquity from "../../../../../assets/images/logos/icon.png"
 import Style from "./NavbarV1.module.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBars,
+} from "@fortawesome/free-solid-svg-icons";
 
 class NavbarV1 extends Component {
 state = {
@@ -18,50 +21,31 @@ toggleCollapse = () => {
 
 render() {
   return (
-    <Router>
-      <MDBNavbar className={Style.NavbarCon} dark expand="md">
+
+      <MDBNavbar className={Style.NavbarCon} white expand="md">
         <MDBNavbarBrand>
          <img className={Style.gambarEquity} src={LogoEquity} alt=""/>
         </MDBNavbarBrand>
-        <MDBNavbarToggler onClick={this.toggleCollapse} />
-        <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-          <MDBNavbarNav left>
-            <MDBNavItem active>
-              <MDBNavLink to="/">Home</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="nav2">Login & Register</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="/nav3">Others</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBDropdown>
-                <MDBDropdownToggle nav caret>
-                  <span className="mr-2">Dropdown</span>
-                </MDBDropdownToggle>
-                <MDBDropdownMenu>
-                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown>
-            </MDBNavItem>
-          </MDBNavbarNav>
-          <MDBNavbarNav right>
-            <MDBNavItem>
-              <MDBFormInline waves>
-                <div className="md-form my-0">
-                  <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
-                </div>
+        <MDBNavbarToggler  onClick={this.toggleCollapse}> <FontAwesomeIcon icon={faBars} /></MDBNavbarToggler>
 
-              </MDBFormInline>
+        <MDBCollapse  id='navbarCollapse1' text-dark isOpen={this.state.isOpen} navbar>
+          <MDBNavbarNav right>
+            <MDBNavItem active>
+             <button className={Style.Button}><b>Support</b></button>
+            </MDBNavItem>
+            <MDBNavItem>
+            <button className={Style.Button}><b>About Us</b></button>
+            </MDBNavItem>
+            <MDBNavItem>
+            <button className={Style.Button2}><b>Client Login</b></button>
+            </MDBNavItem>
+            <MDBNavItem>
+             
             </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
-    </Router>
+
     );
   }
 }
