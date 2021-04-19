@@ -18,6 +18,7 @@ import "./Responsive510.scss";
 // import Img
 import iconCard1 from "../assets/images/logos/speedIcon.png";
 import iconCard2 from "../assets/images/logos/IconCard2.png";
+import { Crausel } from "../components/User/header/Navbar/Navbarv1/Crausel/Crausel";
 export const Page1 = () => {
   return (
     <div className="MainContainer">
@@ -30,11 +31,7 @@ export const Page1 = () => {
           </div>
          
           <div className="SectionCard">
-          
-         <img src={iconCard1}/>
-         <h1>98Gpbs Speed</h1>
-          </div>
-           <div className="SectionServe">
+          <div className="SectionServe">
             <ul>
               <li>
                 <span>
@@ -62,35 +59,42 @@ export const Page1 = () => {
               </li>
             </ul>
           </div>
+         <img src={iconCard1}/>
+         <h1>98Gpbs Speed</h1>
+          </div>
+       
         </div>
         <div className="TrdContainer">
-          <h1 className="TitleKanan">How can we help?</h1>
+          <h1 className="TitleKanan">How can  
+          <span className="text-green "> we</span> help?</h1>
           <div className="ContainerButton">
-            <div className="CardKanan">
+     
+          <div className="CardKanan">
              
-                <h1>LEASE IPV4</h1>
+                <h1>LEASE <span className="text-green "> IPV4</span></h1>
            
               <p>we support a wide range of usage cases</p>
             </div>
-            {/*  */}
-            <div className="CardKanan">
-             
-                <h1>CO-LOCATION</h1>
-              
-              <p>host with us at any of our global locations</p>
-            </div>
-            {/*  */}
+           
             <div className="CardKanan">
             
-                <h1>LEASE SERVERS</h1>
+                <h1>LEASE  SERVERS</h1>
              
               <p>all our servers have unmetered bandwidth</p>
             </div>
-            {/*  */}
+        
+             {/*  */}
+              <div className="CardKanan">
+             
+             <h1><span className="text-green "> CO</span>-LOCATION</h1>
+           
+           <p>host with us at any of our global locations</p>
+         </div>
+      
             <div className="CardKanan">
-                <h1>DATA ANALYTICS</h1>
+                <h1>DATA  ANALYTICS</h1>
               <p>gather and make sense of raw data</p>
-            </div>
+            </div>  
           </div>
         </div>
       </div>

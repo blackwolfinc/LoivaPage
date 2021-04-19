@@ -3,10 +3,16 @@ import "./Back.scss"
 import back from "../../assets/images/logos/download.png"
 import back2 from "../../assets/images/logos/background.png"
 export const Background = () => {
-    return (
+    return (<>
         <div className="BackgroundMain">
-            <img src={back}/>
-            <img className="back2" src={back2}/>
-        </div>
+        {/* <div className="BackgroundMain2">
+         </div>
+         <div className="BackgroundMain3">
+         
+         </div> */}
+        </div> 
+      
+         </>
+        
     )
 }

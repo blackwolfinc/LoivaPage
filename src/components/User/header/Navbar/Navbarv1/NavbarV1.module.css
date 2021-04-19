@@ -16,8 +16,9 @@
   padding: 0.4rem 2em;
   border-radius: 20px;
   border: 2px solid rgb(35, 168, 35);
-  background-color: #fff;
+  background-color: transparent !important;
   margin: 0rem 1rem;
+  color: black;
 }
 .Button2 {
   padding: 0.5rem 2em;
