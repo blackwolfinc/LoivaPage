@@ -11,6 +11,7 @@ import {
   ,faDatabase
   ,faArrowRight
 } from "@fortawesome/free-solid-svg-icons";
+import Typewriter from 'typewriter-effect';
 // import Page
 import NavbarV1 from "../components/User/header/Navbar/Navbarv1/NavbarV1";
 // import Css
@@ -77,8 +78,16 @@ export const Page1 = () => {
         <div className="TrdContainer">
         
           <div className="ContainerButton">
-          <h1 >How can  
-          <span className="text-green "> we</span> help?</h1>
+    
+          <h1 > 
+          <span><Typewriter
+  options={{
+    strings: ['How can we help ?'],
+    autoStart: true,
+    loop: true,
+  }}
+/> </span>
+        </h1>
           
             <div className="CardKanan">
               <div className="CardKanan-img">
