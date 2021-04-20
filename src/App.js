@@ -2,8 +2,8 @@ import './App.css';
 import React from 'react';
 
 import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
-import { Page1 } from './pages/Page1';
 import "./assets/Animation.scss"
+import { AllPage } from './pages/AllPage';
 
 
 
@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
       <Switch>
       <Route path="/">
-    <Page1/>
+    <AllPage/>
       </Route>
     </Switch>
     </BrowserRouter>

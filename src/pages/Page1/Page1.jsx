@@ -1,4 +1,4 @@
-import { Background } from "../components/Background/Background";
+import { Background } from "../../components/Background/Background";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTachometerAlt,
@@ -13,7 +13,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Typewriter from 'typewriter-effect';
 // import Page
-import NavbarV1 from "../components/User/header/Navbar/Navbarv1/NavbarV1";
+import NavbarV1 from "../../components/User/header/Navbar/Navbarv1/NavbarV1";
 // import Css
 import "./Page1.scss";
 import "./Responsive1016.scss";
@@ -22,9 +22,7 @@ import "./Responsive650.scss";
 import "./Responsive510.scss";
 
 // import Img
-import iconCard1 from "../assets/images/logos/speedIcon.png";
-import iconCard2 from "../assets/images/logos/IconCard2.png";
-import Pilss from "../components/User/Pilss/Pilss";
+import iconCard1 from "../../assets/images/logos/speedIcon.png";
 
 export const Page1 = () => {
   return (

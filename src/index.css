@@ -87,7 +87,7 @@ body {
 
 html, body {
 
-  margin: 0; height: 100%; overflow: hidden}
+  margin: 0; height: 100%; }
 
   .navbar-toggler {
    
@@ -105,7 +105,10 @@ html, body {
   border: 3px solid gray;
 }
 
-
+.carousel {
+  width: 20rem;
+  height: 8rem;
+}
 
 .text-green {
 color: rgb(35, 168, 35) !important;
