@@ -1,6 +1,10 @@
 .MainContainer {
   min-height: 100vh;
-  background-color: #ffffffc4 !important;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.23433123249299714) 11%,
+    rgba(255, 255, 255, 0.9) 94%
+  );
   .BodyContainer {
     display: flex;
     height: 80vh;

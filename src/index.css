@@ -111,6 +111,10 @@ html, body {
 }
 
 .text-green {
-color: rgb(35, 168, 35) !important;
+color: ç !important;
 
+}
+
+.text-red {
+  color: rgb(233, 39, 39)  !important;
 }

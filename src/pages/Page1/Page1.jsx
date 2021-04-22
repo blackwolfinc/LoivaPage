@@ -5,13 +5,13 @@ import {
   faMap,
   faNetworkWired,
   faUsersCog,
-  faGlobeEurope
-  ,faServer
-  ,faMapMarkedAlt
-  ,faDatabase
-  ,faArrowRight
+  faGlobeEurope,
+  faServer,
+  faMapMarkedAlt,
+  faDatabase,
+  faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 // import Page
 import NavbarV1 from "../../components/User/header/Navbar/Navbarv1/NavbarV1";
 // import Css
@@ -38,7 +38,9 @@ export const Page1 = () => {
             </h1>
           </div>
 
-          <div className="SectionCard">
+          <div  data-aos="fade-up"
+     data-aos-duration="3000"
+      className="SectionCard">
             <div className="SectionServe">
               <ul>
                 <li>
@@ -62,8 +64,6 @@ export const Page1 = () => {
                 <li>
                   <span>
                     <FontAwesomeIcon icon={faUsersCog} />
-                
-
                   </span>{" "}
                   dedicated human support
                 </li>
@@ -74,73 +74,91 @@ export const Page1 = () => {
           </div>
         </div>
         <div className="TrdContainer">
-        
           <div className="ContainerButton">
-    
-          <h1 > 
-          <span><Typewriter
-  options={{
-    strings: ['How can we help ?'],
-    autoStart: true,
-    loop: true,
-  }}
-/> </span>
-        </h1>
-          
-            <div className="CardKanan">
+            <h1>
+              <span>
+                <Typewriter
+                  options={{
+                    strings: ["How can we help ?"],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />{" "}
+              </span>
+            </h1>
+
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+              data-aos-duration="1000"
+              className="CardKanan"
+            >
               <div className="CardKanan-img">
-              <FontAwesomeIcon icon={faGlobeEurope} />
-              </div>
-              <div className="CardKanan-body">
-                {" "}
-                <h1> LEASE<span className="text-green ">IPV4</span><FontAwesomeIcon icon={faArrowRight } />
-                </h1>
-                <p>we support a wide range of usage cases</p>
-              </div>
-            </div>
-            <div className="CardKanan">
-              <div className="CardKanan-img">
-             
-              <FontAwesomeIcon icon={faServer} />
-              </div>
-              <div className="CardKanan-body">
-                {" "}
-                <h1>LEASE SERVERS <FontAwesomeIcon icon={faArrowRight } /></h1>
-                <p>all our servers have unmetered bandwidth</p>
-              </div>
-            </div>
-            <div className="CardKanan">
-              <div className="CardKanan-img">
-              <FontAwesomeIcon icon={faMapMarkedAlt } />
-         
+                <FontAwesomeIcon icon={faGlobeEurope} />
               </div>
               <div className="CardKanan-body">
                 {" "}
                 <h1>
-                <span className="text-green "> CO</span>-LOCATION<FontAwesomeIcon icon={faArrowRight } />
-               
-              </h1>
-           
-
-              <p>host with us at any of our global locations</p>
+                  {" "}
+                  LEASE<span className="text-green "> IPV4</span>
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </h1>
+                <p>we support a wide range of usage cases</p>
               </div>
             </div>
-            <div className="CardKanan">
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-center"
+              data-aos-duration="1000"
+              className="CardKanan"
+            >
               <div className="CardKanan-img">
-              <FontAwesomeIcon icon={faDatabase } />
-              
+                <FontAwesomeIcon icon={faServer} />
               </div>
               <div className="CardKanan-body">
                 {" "}
-                <h1>DATA ANALYTICS <FontAwesomeIcon icon={faArrowRight } /></h1>
-              <p>gather and make sense of raw data</p>
+                <h1>
+                  LEASE SERVERS <FontAwesomeIcon icon={faArrowRight} />
+                </h1>
+                <p>all our servers have unmetered bandwidth</p>
               </div>
             </div>
-
-
-
-
-          
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              
+              data-aos-duration="1000"
+              className="CardKanan"
+            >
+              <div className="CardKanan-img">
+                <FontAwesomeIcon icon={faMapMarkedAlt} />
+              </div>
+              <div className="CardKanan-body">
+                {" "}
+                <h1>
+                  <span className="text-green "> CO</span>-LOCATION
+                  <FontAwesomeIcon icon={faArrowRight} />
+                </h1>
+                <p>host with us at any of our global locations</p>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="bottom-right"
+              data-aos-duration="1000"
+              className="CardKanan"
+            >
+              <div className="CardKanan-img">
+                <FontAwesomeIcon icon={faDatabase} />
+              </div>
+              <div className="CardKanan-body">
+                {" "}
+                <h1>
+                  DATA ANALYTICS <FontAwesomeIcon icon={faArrowRight} />
+                </h1>
+                <p>gather and make sense of raw data</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
