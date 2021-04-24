@@ -86,7 +86,7 @@ body {
 
 
 html, body {
-
+  scroll-behavior: smooth;
   margin: 0; height: 100%; }
 
   .navbar-toggler {
@@ -114,6 +114,12 @@ html, body {
   box-shadow: none !important;
   border: none !important;
 
+}
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: .6s;
+  transition-property: opacity;
+  padding-top: 1rem;
 }
 .carousel  img{
   width:auto;

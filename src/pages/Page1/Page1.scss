@@ -10,9 +10,18 @@
   .Speedtest {
     height: 10rem;
     margin-left: 15rem;
-    margin-top: 16rem;
-    transform: scale(2.5);
+    margin-top: 15rem;
+    transform: scale(2.3);
+    .Typewriter {
+      color: #3a3a3a6c !important;
+    }
+    :nth-child(2) {
+      // background-color: red;
+      margin-top: -7rem;
+      // border-bottom: 4px gray solid;
+    }
   }
+
   .BodyContainer {
     display: flex;
     height: 80vh;
@@ -45,27 +54,27 @@
       }
 
       .SectionServe {
-        margin-top: 5.5rem;
-        margin-left: -6rem;
+        margin-top: 12.5rem;
+        margin-left: 5rem;
         position: absolute;
-        z-index: 4;
+        z-index: -10;
+        opacity: 0;
         background: linear-gradient(
           136deg,
           #3a3a3a 39%,
           rgba(80, 80, 80, 0.864583) 86%
         );
         padding: 2rem;
-        transform: scale(0.6);
+        transform: scale(1.8);
         border-radius: 20px;
+
         li {
           list-style: none;
           font-size: 28px;
           text-align: left;
-          // margin-left: 4rem;
           font-weight: 500;
           line-height: 3rem;
           color: #fff;
-          // text-shadow: 3px 2px 10px #31af31;
           font-family: "Maax-Medium", "Maax";
 
           span {

@@ -24,6 +24,7 @@ import "./Responsive510.scss";
 // import Img
 import iconCard1 from "../../assets/images/logos/speedIcon.png";
 import { Speed } from "../../components/User/Speed/Speed";
+import { Crausel } from "../../components/User/Crausel/Crausel";
 
 export const Page1 = () => {
   return (
@@ -73,9 +74,17 @@ export const Page1 = () => {
             {/* <img src={iconCard1} /> */}
             <div className="Speedtest">
             <Speed/>
+            <Typewriter 
+                  options={{
+                    strings: [" always unmetered, go all out!" ,"globally peered for performance"," global multi-site lan network","dedicated human support"],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed:8,
+                  }}
+                />{" "}
             </div>
             
-            {/* <h1>98Gpbs Speed</h1> */}
+    
           </div>
         </div>
         <div className="TrdContainer">

@@ -10,10 +10,11 @@ export const Speed = () => {
     needleColor="steelblue"
     needleTransitionDuration={4000}
     needleTransition="easeElastic"
+    needleHeightRatio={1}
     currentValueText=" #{value} Gbps"
     currentValuePlaceholderStyle={'#{value}'}
     textColor={"#AAA"}
-    maxValue={140}
+    maxValue={100}
     minValue={0}
     value={98}
   />
