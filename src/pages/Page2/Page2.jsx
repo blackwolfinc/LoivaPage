@@ -1,10 +1,7 @@
 import React from "react";
 
 import "./Page2.scss";
-import pat1 from "../../assets/images/logos/Patner/pat1.png"
-import pat2 from "../../assets/images/logos/Patner/pat2.png"
-import pat3 from "../../assets/images/logos/Patner/pat3.png"
-import pat4 from "../../assets/images/logos/Patner/pat4.png"
+
 import pat5 from "../../assets/images/logos/Patner/pat5.png"
 import { Crausel } from "../../components/User/Crausel/Crausel";
 import { Background2 } from "../../components/Background/Background2";
@@ -49,13 +46,23 @@ export const Page2 = () => {
                 </div>
                 <div className="page2BodyKananBawah">
                     <div className="page2BodyKananBawahAtas">
-                   <h1> <span className="text-green ">our partners</span></h1>
+                    <span className="text-our">our</span>
+                   <h1> <span className="text-green "> partners </span></h1>
                     </div>
                     <div className="page2BodyKananBawahBawah">
-                        <img  src ={pat1}/>
+
+                    <Crausel/>
+                      {/* <div className="Page2ImgWraper">
+                        <img src ={pat1}/>
+                     </div>
+                     <div className="Page2ImgWraper">
                         <img src ={pat2}/>
+                     </div> 
+                     {/* <div className="Page2ImgWraper">
                         <img src ={pat3}/>
+                     </div> <div className="Page2ImgWraper">
                         <img src ={pat4}/>
+                     </div> */} 
                     </div>
                 </div>
             </div>

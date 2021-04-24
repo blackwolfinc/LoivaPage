@@ -14,16 +14,20 @@ import {
   MDBCol,
 } from "mdbreact";
 
+import pat1 from "../../../assets/images/logos/Patner/pat1.png"
+import pat2 from "../../../assets/images/logos/Patner/pat2.png"
+import pat3 from "../../../assets/images/logos/Patner/pat3.png"
+import pat4 from "../../../assets/images/logos/Patner/pat4.png"
 export const Crausel = () => {
   return (
     <div>
       <MDBContainer>
         <MDBCarousel
           activeItem={1}
-          length={3}
+          length={4}
           showControls={true}
           showIndicators={false}
-          className="z-depth-1"
+          
           slide
         >
           <MDBCarouselInner>
@@ -33,17 +37,10 @@ export const Crausel = () => {
                 <MDBCard>
                   <MDBCardImage
                     className="img-fluid"
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg"
+                    src={pat1}
                     waves
                   />
-                  <MDBCardBody>
-                    <MDBCardTitle> <h1><span className="text-green "> CO</span>-LOCATION</h1></MDBCardTitle>
-                    <MDBCardText>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </MDBCardText>
-                    <MDBBtn href="#">Click 3</MDBBtn>
-                  </MDBCardBody>
+           
                 </MDBCard>
               </MDBView>
             </MDBCarouselItem>
@@ -53,17 +50,10 @@ export const Crausel = () => {
                 <MDBCard>
                   <MDBCardImage
                     className="img-fluid"
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(68).jpg"
+                    src={pat2}
                     waves
                   />
-                  <MDBCardBody>
-                    <MDBCardTitle> <h1>LEASE <span className="text-green "> IPV4</span></h1></MDBCardTitle>
-                    <MDBCardText>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </MDBCardText>
-                    <MDBBtn href="#">Click 1</MDBBtn>
-                  </MDBCardBody>
+                 
                 </MDBCard>
               </MDBView>
             </MDBCarouselItem>
@@ -72,18 +62,24 @@ export const Crausel = () => {
                 {/* Card */}
                 <MDBCard>
                   <MDBCardImage
-                    className="img-fluid"
-                    src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+                    className="img img-thumbnail"
+                    src={pat3}
                     waves
                   />
-                  <MDBCardBody>
-                    <MDBCardTitle><h1>LEASE  SERVERS</h1></MDBCardTitle>
-                    <MDBCardText>
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </MDBCardText>
-                    <MDBBtn href="#">Click 2</MDBBtn>
-                  </MDBCardBody>
+                  
+                </MDBCard>
+              </MDBView>
+            </MDBCarouselItem>
+            <MDBCarouselItem itemId="4">
+              <MDBView>
+                {/* Card */}
+                <MDBCard>
+                  <MDBCardImage
+                    className="img img-thumbnail"
+                    src={pat4}
+                    waves
+                  />
+                  
                 </MDBCard>
               </MDBView>
             </MDBCarouselItem>

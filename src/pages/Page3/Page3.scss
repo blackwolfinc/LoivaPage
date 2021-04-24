@@ -1,7 +1,8 @@
 .Page3Container {
   display: flex;
   width: 100vw;
-  height: 100vh;
+  min-height: 50rem;
+  max-height: 100vh;
   justify-content: center;
   flex-direction: column;
   //   background-color: rebeccapurple;
@@ -58,6 +59,7 @@
       background: url(../../assets/images//Maps/Maps1.png);
       background-size: cover;
       background-repeat: no-repeat;
+      height: 18rem;
       .Layer:hover {
         opacity: 0;
       }
@@ -90,6 +92,7 @@
       background: url(../../assets/images//Maps/Maps2.png);
       background-size: cover;
       background-repeat: no-repeat;
+      height: 18rem;
       .Layer:hover {
         opacity: 0;
       }
@@ -122,6 +125,7 @@
       background: url(../../assets/images//Maps/Maps3.png);
       background-size: cover;
       background-repeat: no-repeat;
+      height: 18rem;
       .Layer:hover {
         opacity: 0;
       }
@@ -154,6 +158,7 @@
       background: url(../../assets/images//Maps/Maps4.png);
       background-size: cover;
       background-repeat: no-repeat;
+      height: 18rem;
       .Layer:hover {
         opacity: 0;
       }

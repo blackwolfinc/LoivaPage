@@ -106,8 +106,21 @@ html, body {
 }
 
 .carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 20rem;
   height: 8rem;
+  box-shadow: none !important;
+  border: none !important;
+
+}
+.carousel  img{
+  width:auto;
+  height: 5.5rem;
+}
+.z-depth-1{
+  box-shadow: none !important;
 }
 
 .text-green {

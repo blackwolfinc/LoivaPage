@@ -23,6 +23,7 @@ import "./Responsive510.scss";
 
 // import Img
 import iconCard1 from "../../assets/images/logos/speedIcon.png";
+import { Speed } from "../../components/User/Speed/Speed";
 
 export const Page1 = () => {
   return (
@@ -69,8 +70,12 @@ export const Page1 = () => {
                 </li>
               </ul>
             </div>
-            <img src={iconCard1} />
-            <h1>98Gpbs Speed</h1>
+            {/* <img src={iconCard1} /> */}
+            <div className="Speedtest">
+            <Speed/>
+            </div>
+            
+            {/* <h1>98Gpbs Speed</h1> */}
           </div>
         </div>
         <div className="TrdContainer">

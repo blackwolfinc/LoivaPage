@@ -1,10 +1,18 @@
 .MainContainer {
-  min-height: 100vh;
+  max-height: 100vh;
+  min-height: 50rem;
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.23433123249299714) 11%,
     rgba(255, 255, 255, 0.9) 94%
   );
+
+  .Speedtest {
+    height: 10rem;
+    margin-left: 15rem;
+    margin-top: 16rem;
+    transform: scale(2.5);
+  }
   .BodyContainer {
     display: flex;
     height: 80vh;
@@ -38,16 +46,16 @@
 
       .SectionServe {
         margin-top: 5.5rem;
-        margin-left: -2rem;
+        margin-left: -6rem;
         position: absolute;
         z-index: 4;
         background: linear-gradient(
           136deg,
-          rgba(58, 58, 58, 1) 39%,
-          rgba(80, 80, 80, 0.8645833333333334) 86%
+          #3a3a3a 39%,
+          rgba(80, 80, 80, 0.864583) 86%
         );
         padding: 2rem;
-        //   background-color: red;
+        transform: scale(0.6);
         border-radius: 20px;
         li {
           list-style: none;
