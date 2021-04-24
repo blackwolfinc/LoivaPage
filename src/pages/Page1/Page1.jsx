@@ -43,6 +43,10 @@ export const Page1 = () => {
           <div  data-aos="fade-up"
      data-aos-duration="3000"
       className="SectionCard">
+      <div className="Speedtest">
+            <Speed/>
+            
+            </div>
             <div className="SectionServe">
               <ul>
                 <li>
@@ -72,17 +76,7 @@ export const Page1 = () => {
               </ul>
             </div>
             {/* <img src={iconCard1} /> */}
-            <div className="Speedtest">
-            <Speed/>
-            <Typewriter 
-                  options={{
-                    strings: [" always unmetered, go all out!" ,"globally peered for performance"," global multi-site lan network","dedicated human support"],
-                    autoStart: true,
-                    loop: true,
-                    deleteSpeed:8,
-                  }}
-                />{" "}
-            </div>
+            
             
     
           </div>
