@@ -313,3 +313,19 @@
     margin-bottom: 1.5rem;
   }
 }
+
+.pointer {
+  :first-child {
+    animation: animate2 13s ease-in-out infinite;
+  }
+}
+
+@keyframes animate2 {
+  0%,
+  100% {
+    transform: rotate(86deg);
+  }
+  50% {
+    transform: rotate(50deg);
+  }
+}
