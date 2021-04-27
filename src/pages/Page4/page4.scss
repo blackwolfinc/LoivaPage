@@ -58,12 +58,24 @@
     justify-content: center;
     text-align: left;
     flex-direction: row;
-
     height: 29rem;
+    animation: animateku 10s ease-in-out infinite;
+    img {
+    }
   }
 
   .DuaPerTuju {
     // width: 10px;
     margin-top: 2rem;
+  }
+  @keyframes animateku {
+    100%,
+    0% {
+      transform: rotateY(0deg);
+    }
+
+    50% {
+      transform: rotateY(200deg);
+    }
   }
 }
