@@ -20,12 +20,12 @@ import pat3 from "../../../assets/images/logos/Patner/pat3.png"
 import pat4 from "../../../assets/images/logos/Patner/pat4.png"
 export const Crausel = () => {
   return (
-    <div>
+    <div className="Crau1" >
       <MDBContainer>
         <MDBCarousel
           activeItem={1}
           length={4}
-          showControls={true}
+          showControls={false}
           showIndicators={false}
           
           slide
