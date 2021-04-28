@@ -3,7 +3,7 @@ import {
 MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline,
 MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
-import LogoEquity from "../../../../../assets/images/logos/icon.png"
+import LogoEquity from "../../../../../assets/images/logos/Logo.png"
 import Style from "./NavbarV1.module.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -29,19 +29,49 @@ render() {
         <MDBNavbarToggler  onClick={this.toggleCollapse}> <FontAwesomeIcon icon={faBars} /></MDBNavbarToggler>
 
         <MDBCollapse  id='navbarCollapse1' text-dark isOpen={this.state.isOpen} navbar>
-          <MDBNavbarNav right>
+        <MDBNavbarNav right>
             <MDBNavItem active>
-             <button className={Style.Button}><b>Support</b></button>
+              <MDBNavLink to="/">Customers</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-            <button className={Style.Button}><b>About Us</b></button>
+              <MDBNavLink to="">Solutions</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-            <button className={Style.Button2}><b>Client Login</b></button>
+              <MDBNavLink to="">Partners</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-             
+              <MDBNavLink to="">About Us</MDBNavLink>
             </MDBNavItem>
+            <MDBNavItem>
+              <button className="navbarLogin">LOG IN</button>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBDropdown>
+                <MDBDropdownToggle nav caret>
+                  <span className="mr-2">France</span>
+                </MDBDropdownToggle>
+                <MDBDropdownMenu>
+                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                </MDBDropdownMenu>
+              </MDBDropdown>
+              
+            </MDBNavItem>
+            <MDBNavItem>
+            <MDBDropdown>
+                <MDBDropdownToggle nav caret>
+                  <span className="mr-2">EN</span>
+                </MDBDropdownToggle>
+                <MDBDropdownMenu>
+                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                </MDBDropdownMenu>
+              </MDBDropdown>
+              </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>

@@ -1,28 +1,55 @@
 
 
 @font-face {
-  font-family: 'Maax-Medium';
-  src: url('./assets/Font/Maax/Maax-Medium.eot');
-  src: local('Maax Medium'), local('./assets/Font/Maax/Maax-Medium'),
-      url('./assets/Font/Maax/Maax-Medium.eot?#iefix') format('embedded-opentype'),
-      url('./assets/Font/Maax/Maax-Medium.woff') format('woff'),
-      url('./assets/Font/Maax/Maax-Medium.ttf') format('truetype');
+  font-family: 'Montserrat';
+  src: url('./assets/Font/Montserrat-Black.ttf');
+  src: local('Montserrat'), local('./assets/Font/Montserrat'),
+      url('./assets/Font/Montserrat-Black.ttf') format('truetype'),;
   font-weight: 500;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Maax-Italic';
-  src: url('./assets/Font/Maax/Maax-Italic.eot');
-  src: local('Maax Italic'), local('./assets/Font/Maax/Maax-Italic'),
-      url('./assets/Font/Maax/Maax-Italic.eot?#iefix') format('embedded-opentype'),
-      url('./assets/Font/Maax/Maax-Italic.woff') format('woff'),
-      url('./assets/Font/Maax/Maax-Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
 
 @font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('./assets/Font/Montserrat-Medium.ttf');
+  src: local('Montserrat-Medium'), local('./assets/Font/Montserrat'),
+      url('./assets/Font/Montserrat-Medium.ttf') format('truetype'),;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ @font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('./assets/Font/Montserrat-Bold.ttf');
+  src: local('Montserrat-Bold'), local('./assets/Font/Montserrat-Bold.ttf'),
+      url('./assets/Font/Montserrat-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('./assets/Font/Montserrat-Regular.ttf');
+  src: local('Montserrat-Regular'),
+      url('./assets/Font/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('./assets/Font/Montserrat-Bold.ttf');
+  src: local('./assets/Font/Montserrat-Bold.ttf'), local('./assets/Font/Montserrat-Bold.ttf'),
+      url('./assets/Font/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* @font-face {
   font-family: 'Maax-BoldItalic';
   src: url('./assets/Font/Maax/Maax-BoldItalic.eot');
   src: local('Maax BoldItalic'), local('./assets/Font/Maax/Maax-BoldItalic'),
@@ -32,6 +59,8 @@
   font-weight: bold;
   font-style: italic;
 }
+
+
 
 @font-face {
   font-family: 'Maax-Black';
@@ -44,16 +73,7 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'Maax';
-  src: url('./assets/Font/Maax/Maax.eot');
-  src: local('Maax'),
-      url('./assets/Font/Maax/Maax.eot?#iefix') format('embedded-opentype'),
-      url('./assets/Font/Maax/Maax.woff') format('woff'),
-      url('./assets/Font/Maax/Maax.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 @font-face {
   font-family: 'Maax-Bold';
@@ -75,12 +95,12 @@
       url('./assets/Font/Maax/Maax-Mediumitalic.ttf') format('truetype');
   font-weight: 500;
   font-style: italic;
-}
+} */ */
 
 
 body {
   margin: 0;
-  font-family:'Maax-Medium','Maax' !important;
+  font-family:'Montserrat','Montserrat' !important;
   
 }
 
@@ -136,4 +156,43 @@ color: rgba(35, 168, 35, 0.753)  !important;
 
 .text-red {
   color: rgb(233, 39, 39)  !important;
+}
+
+
+.nav-link {
+  margin: 0rem 0.6rem;
+  font-family: 'Montserrat-Medium';
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.navbarLogin {
+  padding: 0.3rem 1rem;
+  border-radius: 4px;
+  border: solid 2px #73c5c5;
+  background-color: #73c5c5;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Montserrat-Medium';
+  margin-left: 0.4rem;
+}
+
+.dropdown-toggle {
+  padding: 0.3rem 1rem !important;
+  border-radius: 4px;
+  border: solid 2px #ffffff;
+  margin: 0rem 0.5rem;
+
 }

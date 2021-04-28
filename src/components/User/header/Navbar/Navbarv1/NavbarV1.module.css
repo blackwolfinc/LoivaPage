@@ -7,27 +7,14 @@
 .NavbarCon {
   background: transparent !important;
   color: black !important;
+  box-shadow: none !important;
+  margin-top: 2rem;
+  margin-right: 3rem;
+ 
+
+  ;
 }
 .navbarCollapse3 {
   color: black;
 }
 
-.Button {
-  padding: 0.4rem 2em;
-  border-radius: 20px;
-  border: 2px solid rgb(35, 168, 35);
-  background-color: transparent !important;
-  margin: 0rem 1rem;
-  color: black;
-}
-.Button2 {
-  padding: 0.5rem 2em;
-  border-radius: 20px;
-  border: none;
-  color: #fff;
-  background-color: rgb(35, 168, 35);
-  margin: 0rem 1rem;
-
-  font-family: 'Maax-Bold', 'Maax';
-  font-weight: 700;
-}
